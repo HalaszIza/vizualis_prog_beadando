@@ -12,11 +12,12 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Vivien\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Vivien\\.nuget\\packages",
+      "C:\\Users\\ASUS-PC\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ASUS-PC\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }

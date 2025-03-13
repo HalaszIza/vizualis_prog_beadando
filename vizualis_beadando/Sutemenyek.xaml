@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
         Title="Sutemenyek" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FFFFEBA2">
         
     </Grid>
 </Window>

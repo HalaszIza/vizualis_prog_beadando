@@ -1,5 +1,5 @@
 ﻿vizualis_beadando
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\App.xaml
 652691953
 
-10253758237
+81479824689
 198-1133866272
 Felhasznalo.xaml;Foetelek.xaml;HetiAjanlat.xaml;MainWindow.xaml;OrszagTortai.xaml;Sutemenyek.xaml;
 
-True
+False
 

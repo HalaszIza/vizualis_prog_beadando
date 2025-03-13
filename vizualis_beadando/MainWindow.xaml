@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="Főoldal" HorizontalAlignment="Left" Margin="339,0,0,0" VerticalAlignment="Center" Height="46" Width="91" AutomationProperties.Name="Fooldal" RenderTransformOrigin="0.5,0.5">
+        Title="Főolda" Height="450" Width="800">
+    <Grid Background="#FFFFEBA2">
+        <Label>
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -17,11 +17,39 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button Content="Felhasznaloi fiokok" HorizontalAlignment="Left" Margin="89,26,0,0" VerticalAlignment="Top" Height="120" Width="150" AutomationProperties.Name="bt_Registr" Panel.ZIndex="-43" Click="OpenFelhasznalo" Background="#FFABABAB"/>
-        <Button Content="Heti_Ajanlat" HorizontalAlignment="Left" Margin="69,252,0,0" VerticalAlignment="Top" Height="120" Width="150" AutomationProperties.Name="bt_Heti" Click="OpenHetiWindow" Background="#FFC3C3C3"/>
-        <Button Content="Foetelek" HorizontalAlignment="Left" Margin="486,37,0,0" VerticalAlignment="Top" Height="120" Width="150" AutomationProperties.Name="bt_Foetelek" Click="OpenFoetelek" Background="#FFEDEDED"/>
-        <Button Content="OrszagTortai" HorizontalAlignment="Left" Margin="569,217,0,0" VerticalAlignment="Top" Width="150" Height="120" AutomationProperties.Name="bt_Orszag" Background="#FF676767" Click="OpenOrszagTortai"/>
-        <Button Content="Sutemenyek" HorizontalAlignment="Left" Margin="354,272,0,0" VerticalAlignment="Top" Width="150" Height="120" AutomationProperties.Name="bt_Sutemenyek" Click="OpenSutemenyek" Background="#FFE2E2E2"/>
+   
+        <Button HorizontalAlignment="Left" Margin="30,20,0,0" VerticalAlignment="Top" Width="210" Height="200" AutomationProperties.Name="bt_Orszag" Click="OpenOrszagTortai" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/orszag_tortai.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
+            </Button.Background>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Margin="30,0,0,25" VerticalAlignment="Bottom" Height="180" Width="250" AutomationProperties.Name="bt_Registr" Panel.ZIndex="-43" Click="OpenFelhasznalo" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/belepes.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
+            </Button.Background>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Width="200" Height="200" AutomationProperties.Name="bt_Sutemenyek" Click="OpenSutemenyek" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/sutemenyek.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
+            </Button.Background>
+        </Button>
+        
+        <Button HorizontalAlignment="Left" Margin="320,0,0,10" VerticalAlignment="Bottom" Height="200" Width="170" AutomationProperties.Name="bt_Heti" Click="OpenHetiWindow" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/heti_ajanlat.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
+               
+            </Button.Background>
+        </Button>
+        
+        <Button HorizontalAlignment="Right" Margin="400,30,20,0" VerticalAlignment="Center" Height="300" Width="260" AutomationProperties.Name="bt_Foetelek" Click="OpenFoetelek" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/foetelek.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
+            </Button.Background>
+        </Button>
+
+        
 
     </Grid>
 </Window>
