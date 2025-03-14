@@ -6,7 +6,76 @@
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
         Title="Sutemenyek" Height="450" Width="800">
-    <Grid Background="#FFFFEBA2">
-        
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
+            <MenuItem x:Name="miFőoldal" Header="Főoldal" Click="mi_Főoldal_Click" Background="White"/>
+        </Menu>
+        <Grid Background="#FFFFEBA2">
+
+            <Grid.Resources>
+                <Style TargetType="{x:Type Image}" >
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                    <Setter Property="Margin" Value="5"/>
+                </Style>
+            </Grid.Resources>
+
+            <TextBlock Text="Néhány sütemény recept ABC sorrendben:" FontSize="17"/>
+
+            <ListBox Margin="46,38,495,56" Background="#FFFFEBA2">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Krumplis pogácsa" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="krumplis_Bt"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Macaron" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="macaron_Bt"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Málnás tejszínhabos kocka" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="malnas_Bt"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Meggyes ráncos pite" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="meggyes_Bt"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Pizzás csiga" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="pizzas_Bt"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Sajtos ropogós" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="sajtos_Bt"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Somlói galuska" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="somloi_Bt"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
+                    <Button Content="Sós aprósütemény" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
+                            Click="sos_Bt"/>
+                </StackPanel>
+
+            </ListBox>
+
+            <Image Source="Images/kockas-hatter.jpg" Margin="321,38,19,65" />
+
+        </Grid>
+
+    </DockPanel>
 </Window>
