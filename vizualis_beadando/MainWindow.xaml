@@ -8,24 +8,14 @@
         Title="Főolda" Height="450" Width="800">
     <DockPanel>
         <Grid Background="#FFFFEBA2">
-            <Label>
-                <Label.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="0.433"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Label.RenderTransform>
-            </Label>
-   
+                           
             <Button HorizontalAlignment="Left" Margin="30,20,0,0" VerticalAlignment="Top" Width="210" Height="200" AutomationProperties.Name="bt_Orszag" Click="OpenOrszagTortai" BorderBrush="{x:Null}">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/orszag_tortai.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
                 </Button.Background>
             </Button>
 
-            <Button HorizontalAlignment="Left" Margin="30,0,0,25" VerticalAlignment="Bottom" Height="180" Width="250" AutomationProperties.Name="bt_Registr" Panel.ZIndex="-43" Click="OpenFelhasznalo" BorderBrush="{x:Null}">
+            <Button HorizontalAlignment="Left" Margin="30,0,0,25" VerticalAlignment="Bottom" Height="180" Width="250" AutomationProperties.Name="bt_Registr" Click="OpenFelhasznalo" BorderBrush="{x:Null}">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/belepes.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
                 </Button.Background>
@@ -42,15 +32,14 @@
                     <ImageBrush ImageSource="Images/heti_ajanlat.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
                
                 </Button.Background>
+                <Frame Name="MainFrame" NavigationUIVisibility="Hidden"/>
             </Button>
         
             <Button HorizontalAlignment="Right" Margin="400,30,20,0" VerticalAlignment="Center" Height="300" Width="260" AutomationProperties.Name="bt_Foetelek" Click="OpenFoetelek" BorderBrush="{x:Null}">
                 <Button.Background>
                     <ImageBrush ImageSource="Images/foetelek.png" Stretch="UniformToFill" AlignmentX="Center" AlignmentY="Center"/>
                 </Button.Background>
-            </Button>
-
-        
+            </Button>   
 
         </Grid>
     </DockPanel>

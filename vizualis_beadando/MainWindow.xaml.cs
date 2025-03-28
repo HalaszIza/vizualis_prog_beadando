@@ -22,7 +22,7 @@ namespace vizualis_beadando
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void OpenHetiWindow(object sender, RoutedEventArgs e)
@@ -30,6 +30,9 @@ namespace vizualis_beadando
             HetiAjanlat objHetiAjanlat = new HetiAjanlat();
             this.Visibility = Visibility.Hidden;
             objHetiAjanlat.Show();
+
+            HetiAjanlat hetiAjanlat = new HetiAjanlat();
+            hetiAjanlat.Show();
         }
 
         private void OpenFelhasznalo(object sender, RoutedEventArgs e)
@@ -37,6 +40,9 @@ namespace vizualis_beadando
             Felhasznalo objFelhasznalo = new Felhasznalo();
             this.Visibility = Visibility.Hidden;
             objFelhasznalo.Show();
+
+            Felhasznalo felhasznalo = new Felhasznalo();
+            felhasznalo.Show();
         }
 
         private void OpenFoetelek(object sender, RoutedEventArgs e)
@@ -44,6 +50,9 @@ namespace vizualis_beadando
             Foetelek objFoetelek = new Foetelek();
             this.Visibility = Visibility.Hidden;
             objFoetelek.Show();
+
+            Foetelek foetelek = new Foetelek();
+            foetelek.Show();
         }
 
         private void OpenSutemenyek(object sender, RoutedEventArgs e)
@@ -51,6 +60,9 @@ namespace vizualis_beadando
             Sutemenyek objSutemenyek = new Sutemenyek();
             this.Visibility = Visibility.Hidden;
             objSutemenyek.Show();
+
+            Sutemenyek sutemenyek = new Sutemenyek();
+            sutemenyek.Show();
         }
 
         private void OpenOrszagTortai(object sender, RoutedEventArgs e)
@@ -58,6 +70,9 @@ namespace vizualis_beadando
             OrszagTortai objOrszagTortai = new OrszagTortai();
             this.Visibility = Visibility.Hidden;
             objOrszagTortai.Show();
+
+            OrszagTortai orszagTortai = new OrszagTortai();
+            orszagTortai.Show();
         }
     }
 }

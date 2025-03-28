@@ -7,9 +7,12 @@
         mc:Ignorable="d"
         Title="Sutemenyek" Height="450" Width="800">
     <DockPanel>
+        <!--
         <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
-            <MenuItem x:Name="miFőoldal" Header="Főoldal" Click="mi_Főoldal_Click" Background="White"/>
-        </Menu>
+    <MenuItem x:Name="miFőoldal" Header="Főoldal" Click="mi_Főoldal_Click" Background="White"/>
+</Menu>
+        -->
+        
         <Grid Background="#FFFFEBA2">
 
             <Grid.Resources>
@@ -20,55 +23,74 @@
                 </Style>
             </Grid.Resources>
 
-            <TextBlock Text="Néhány sütemény recept ABC sorrendben:" FontSize="17"/>
+            <TextBlock Text="Néhány kedvenc sütemény recept:" FontSize="17"/>
 
             <ListBox Margin="46,38,495,56" Background="#FFFFEBA2">
+                
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Krumplis pogácsa" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="krumplis_Bt"/>
+                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>                   
+                    <Button Content="Krumplis pogácsa" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="krumplis_Bt"/>
+                    <ListBox Name="k_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="krumplis_pogi" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="k_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Macaron" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="macaron_Bt"/>
+                    <Button Content="Macaron" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="macaron_Bt"/>
+                    <ListBox Name="m_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="macaron" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="m_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+                    
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Málnás tejszínhabos kocka" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="malnas_Bt"/>
+                    <Button Content="Málnás tejszínhabos kocka" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="malnas_Bt"/>
+                    <ListBox Name="mtk_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="mt_kocka" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="mtk_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Meggyes ráncos pite" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="meggyes_Bt"/>
+                    <Button Content="Meggyes rácsos pite" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="meggyes_Bt"/>
+                    <ListBox Name="mrp_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="meggyesr_pite" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="mrp_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Pizzás csiga" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="pizzas_Bt"/>
+                    <Button Content="Pizzás csiga" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="pizzas_Bt"/>
+                    <ListBox Name="p_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="pizzas_csigusz" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="p_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Sajtos ropogós" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="sajtos_Bt"/>
+                    <Button Content="Sajtos ropogós" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="sajtos_Bt"/>
+                    <ListBox Name="sr_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="sajtos_ropi" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="sr_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Somlói galuska" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="somloi_Bt"/>
+                    <Button Content="Somlói galuska" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="somloi_Bt"/>
+                    <ListBox Name="sg_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="somloi" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="sg_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Sós aprósütemény" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}"
-                            Click="sos_Bt"/>
+                    <Button Content="Sós aprósütemény" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="sos_Bt"/>
+                    <ListBox Name="sa_hozzavalok" Margin="10" Visibility="Collapsed"/>
+                    <Image Name="sos_apro" Height="200" Margin="10" Visibility="Collapsed"/>
+                    <TextBlock Name="sa_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
                 </StackPanel>
 
             </ListBox>

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="HetiAjanlat" Height="450" Width="800">
     <Grid Background="#FFFFEBA2">
-        <Label Content="HetiAjanlat" HorizontalAlignment="Left" Margin="314,200,0,0" VerticalAlignment="Top"/>
+       
 
 
     </Grid>
