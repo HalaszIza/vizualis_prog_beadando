@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
         Title="OrszagTortai" Height="450" Width="800">
-    <Grid Background="#FFFFEBA2">
-        
-    </Grid>
+    <DockPanel>
+
+        <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
+            <MenuItem Header="Főoldal" Width="100" Height="30" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="15"/>
+        </Menu>
+
+        <Grid Background="#FFFFEBA2">
+
+        </Grid>
+    </DockPanel>
 </Window>

@@ -160,5 +160,11 @@ namespace vizualis_beadando
             krumplis_pogi.Visibility = Visibility.Visible;
 
         }
+
+        private void mi_Főoldal_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

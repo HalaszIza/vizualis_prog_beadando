@@ -23,5 +23,10 @@ namespace vizualis_beadando
         {
             InitializeComponent();
         }
+
+        private void mi_Főoldal_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

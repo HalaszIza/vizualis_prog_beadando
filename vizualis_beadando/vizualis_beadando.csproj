@@ -7,4 +7,71 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\belepes.png" />
+    <None Remove="Images\Etelek\kep_02.png" />
+    <None Remove="Images\Etelek\kep_03.png" />
+    <None Remove="Images\Etelek\kep_04.png" />
+    <None Remove="Images\Etelek\kep_05.png" />
+    <None Remove="Images\Etelek\macaron.jpg" />
+    <None Remove="Images\Etelek\malnastejszínhabos.jpg" />
+    <None Remove="Images\Etelek\meggyespite.jpg" />
+    <None Remove="Images\Etelek\somloi.jpg" />
+    <None Remove="Images\foetelek.png" />
+    <None Remove="Images\heti_ajanlat.png" />
+    <None Remove="Images\kockas-hatter.jpg" />
+    <None Remove="Images\orszag_tortai.png" />
+    <None Remove="Images\sutemenyek.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\belepes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\kep_02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\kep_03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\kep_04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\kep_05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\macaron.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\malnastejszínhabos.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\meggyespite.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Etelek\somloi.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\foetelek.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\heti_ajanlat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\kockas-hatter.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\orszag_tortai.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\sutemenyek.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.7.25104.5739" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+  </ItemGroup>
+
 </Project>

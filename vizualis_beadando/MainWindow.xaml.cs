@@ -22,57 +22,37 @@ namespace vizualis_beadando
     {
         public MainWindow()
         {
-            InitializeComponent();            
-        }
-
-        private void OpenHetiWindow(object sender, RoutedEventArgs e)
-        {
-            HetiAjanlat objHetiAjanlat = new HetiAjanlat();
-            this.Visibility = Visibility.Hidden;
-            objHetiAjanlat.Show();
-
-            HetiAjanlat hetiAjanlat = new HetiAjanlat();
-            hetiAjanlat.Show();
+            InitializeComponent();
         }
 
         private void OpenFelhasznalo(object sender, RoutedEventArgs e)
         {
-            Felhasznalo objFelhasznalo = new Felhasznalo();
-            this.Visibility = Visibility.Hidden;
-            objFelhasznalo.Show();
-
-            Felhasznalo felhasznalo = new Felhasznalo();
-            felhasznalo.Show();
+            Felhasznalo window1 = new Felhasznalo();
+            window1.Show();
         }
 
         private void OpenFoetelek(object sender, RoutedEventArgs e)
         {
-            Foetelek objFoetelek = new Foetelek();
-            this.Visibility = Visibility.Hidden;
-            objFoetelek.Show();
-
-            Foetelek foetelek = new Foetelek();
-            foetelek.Show();
+            Foetelek window2 = new Foetelek();
+            window2.Show();
         }
 
-        private void OpenSutemenyek(object sender, RoutedEventArgs e)
+        private void OpenHetiAjanlat(object sender, RoutedEventArgs e)
         {
-            Sutemenyek objSutemenyek = new Sutemenyek();
-            this.Visibility = Visibility.Hidden;
-            objSutemenyek.Show();
-
-            Sutemenyek sutemenyek = new Sutemenyek();
-            sutemenyek.Show();
+            HetiAjanlat window3 = new HetiAjanlat();
+            window3.Show();
         }
 
         private void OpenOrszagTortai(object sender, RoutedEventArgs e)
         {
-            OrszagTortai objOrszagTortai = new OrszagTortai();
-            this.Visibility = Visibility.Hidden;
-            objOrszagTortai.Show();
+            OrszagTortai window4 = new OrszagTortai();
+            window4.Show();
+        }
 
-            OrszagTortai orszagTortai = new OrszagTortai();
-            orszagTortai.Show();
+        private void OpenSutemenyek(object sender, RoutedEventArgs e)
+        {
+            Sutemenyek window5 = new Sutemenyek();
+            window5.Show();
         }
     }
 }

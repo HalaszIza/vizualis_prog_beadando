@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:vizualis_beadando"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

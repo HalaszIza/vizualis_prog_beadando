@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Sutemenyek" Height="450" Width="800">
     <DockPanel>
-        <!--
+        
         <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
-    <MenuItem x:Name="miFőoldal" Header="Főoldal" Click="mi_Főoldal_Click" Background="White"/>
-</Menu>
-        -->
+            <MenuItem Header="Főoldal" Width="100" Height="30" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="15"/>
+        </Menu>
+       
         
         <Grid Background="#FFFFEBA2">
 
