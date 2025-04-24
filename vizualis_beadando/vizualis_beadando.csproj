@@ -19,7 +19,7 @@
     <None Remove="Images\Etelek\somloi.jpg" />
     <None Remove="Images\foetelek.png" />
     <None Remove="Images\heti_ajanlat.png" />
-    <None Remove="Images\kockas-hatter.jpg" />
+    <None Remove="Images\kocks-hatter.png" />
     <None Remove="Images\orszag_tortai.png" />
     <None Remove="Images\sutemenyek.png" />
   </ItemGroup>
@@ -58,7 +58,7 @@
     <Content Include="Images\heti_ajanlat.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\kockas-hatter.jpg">
+    <Content Include="Images\kocks-hatter.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\orszag_tortai.png">

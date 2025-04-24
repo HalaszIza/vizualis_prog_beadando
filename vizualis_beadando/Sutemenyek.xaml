@@ -5,14 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
-        Title="Sutemenyek" Height="450" Width="800">
+        Title="Sutemenyek" Height="600" Width="900">
     <DockPanel>
-        
+
         <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
-            <MenuItem Header="Főoldal" Width="100" Height="30" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="15"/>
+            <MenuItem Header="Főoldal" Width="100" Height="30" Click="mi_Főoldal_Click" Background="#FFFBC2C2" Padding="30,0,20,0" FontSize="20"/>
         </Menu>
-       
-        
+
         <Grid Background="#FFFFEBA2">
 
             <Grid.Resources>
@@ -22,80 +21,251 @@
                     <Setter Property="Margin" Value="5"/>
                 </Style>
             </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="770*"/>
+                <ColumnDefinition Width="131*"/>
+            </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Néhány kedvenc sütemény recept:" FontSize="17"/>
+            <TextBlock Text="Néhány kedvenc sütemény recept:" FontSize="20" Grid.ColumnSpan="2"/>
 
-            <ListBox Margin="46,38,495,56" Background="#FFFFEBA2">
-                
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>                   
-                    <Button Content="Krumplis pogácsa" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="krumplis_Bt"/>
-                    <ListBox Name="k_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="krumplis_pogi" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="k_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+            <ListBox Margin="10,38,10,56" Background="Transparent" BorderBrush="{x:Null}" Grid.ColumnSpan="2">
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum1">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Krumplis pogácsa" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="krumplis_Bt"/>
 
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Macaron" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="macaron_Bt"/>
-                    <ListBox Name="m_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="macaron" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="m_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
-                    
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum2">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Macaron" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="macaron_Bt"/>
+
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Málnás tejszínhabos kocka" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="malnas_Bt"/>
-                    <ListBox Name="mtk_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="mt_kocka" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="mtk_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum3">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold" />
+                    <Button Content="Málnás tejszínhabos kocka" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="malnas_Bt" />
+
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Meggyes rácsos pite" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="meggyes_Bt"/>
-                    <ListBox Name="mrp_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="meggyesr_pite" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="mrp_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum4">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Meggyes rácsos pite" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="meggyes_Bt" />
+
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Pizzás csiga" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="pizzas_Bt"/>
-                    <ListBox Name="p_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="pizzas_csigusz" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="p_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum5">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Pizzás csiga" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="pizzas_Bt"/>
+
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Sajtos ropogós" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="sajtos_Bt"/>
-                    <ListBox Name="sr_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="sajtos_ropi" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="sr_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum6">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Sajtos ropogós" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="sajtos_Bt"/>
+
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Somlói galuska" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="somloi_Bt"/>
-                    <ListBox Name="sg_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="somloi" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="sg_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum7">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Somlói galuska" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="somloi_Bt"/>
+
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="~" FontSize="16" FontWeight="Bold"/>
-                    <Button Content="Sós aprósütemény" FontStyle="Italic" FontSize="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="sos_Bt"/>
-                    <ListBox Name="sa_hozzavalok" Margin="10" Visibility="Collapsed"/>
-                    <Image Name="sos_apro" Height="200" Margin="10" Visibility="Collapsed"/>
-                    <TextBlock Name="sa_recept" FontSize="16" Margin="10" Visibility="Collapsed"/>
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum8">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Sós aprósütemény" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="sos_Bt"/>
+
                 </StackPanel>
 
             </ListBox>
 
-            <Image Source="Images/kockas-hatter.jpg" Margin="321,38,19,65" />
+            <Image Source="Images/kocks-hatter.png" Margin="349,-18,10,0" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2"/>
+            
+            <Button Margin="39,438,481,80" Content="Muti az új sütit" Background="#FFFBC2C2" BorderBrush="{x:Null}" FontSize="25" Click="Uj_suti"/>
+
+            <Image x:Name="Krumplis_pogi" Source="Images/Etelek/kep_04.png" Margin="362,26,173,381" Visibility="Collapsed"/>
+            <TextBlock x:Name="k_hozzavalok" FontSize="17" Margin="619,1,15,426" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+                Hozzávalók: -1 kg finomliszt -800 g tisztított burgonya -50 g élesztő -200 g teavaj -200 g sertészsír -50 g só -3 db tojás sárgája -150 ml 1.5%-os tej -1 db egész tojás a kenéshez
+            </TextBlock>
+            <TextBlock x:Name="k_elkeszites" FontSize="16" Margin="363,204,24,33" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">                
+                Elkészítés:
+                Először a krumplit kell megfőzni.Ameddig hül addig a liszthez hozzáadom a vajat és a zsírt és összemorzsolom őket. 
+                Mindeközben ha már langyos a főtt krumli át kell törni alaposan. Ezután az élesztőt belemorzsolom a langyos tejbe majd egy fél mokkáskanál cukrot és egy csipet liszet teszek a keverékbe majd kb. 
+                2 perc alatt fel is fut. Ha minden elkészült a lisztes keverékhez hozzáadom az átnyomott, hideg krumplit majd átforgatom. Ezután a tojások sárjája majd az élesztő kerülhet bele amit jó alaposan elkezdhetjük összedolgozni. 
+                Ha már kezd összeállni a tészta hozzáadhatjuk a sót is. Fontos, hogy ezt ne a legelején adjuk hozzá. Ha szépen összeáll 60-70 percre a hűtőben pihentetjük. Az idő leteltével elkezdhetjük kinyújtani, szaggatni tetszés szerinti formára. 
+                Sütés előtt 1 tojással kell megkenni.
+                Elkészítési idő: 1 óra
+                Sütési idő: 10-13 perc
+                Sütési hőfok: 190-200C° (Sütőtől függően)
+                Sütési mód: alsó felső fokozatban
+            </TextBlock>
+
+            <Image x:Name="macaron" Source="Images/Etelek/macaron.jpg" Margin="358,10,155,411" Visibility="Collapsed"/>
+            <TextBlock x:Name="m_hozzavalok" FontSize="17" Margin="614,1,13,381" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>    
+                Hozzávalók: Csokoládéganache-hoz: -180 g étcsokoládé -150 ml habtejszín Macarontésztához: -150 g mandulaliszt -170 g porcukor -1 csipet só -3 csepp ételfesték -1 csepp vaníliaaroma -120 g tojásfehérje -120 g cukor
+            </TextBlock>
+            <TextBlock x:Name="m_elkeszites" FontSize="16" Margin="367,169,10,-62" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                Elkészítés: Vízgőz fölött egy tálban összeolvasztjuk a csokoládét és a tejszínt. Simára keverjük, és hagyjuk teljesen kihűlni. A sütőt melegítsük elő 150°C fokra. 
+                A mandulalisztet a porcukorral és egy csipet sóval daráljuk le, hogy simább és egyneműbb legyen a keverék, ezután szitáljuk át. A tojásfehérjéket egy csipet sóval kezdjük habbá verni, fokozatosan adjuk hozzá a kristálycukrot. 
+                Ezután hozzákeverjük a vaníliaaromát és az ételfestéket. A mandulalisztes keverék 1/4-ét hozzákeverjük a habhoz, határozott mozdulatokkal. Majd ha szinte már sima az állaga, mehet hozzá a maradék is, amivel simára keverjük. 
+                A masszát habzsákba töltjük, egyforma nagyságú korongokat nyomkodunk, egymástól 3-4 cm távolságra. A sütőlemezt jó erővel csapkodjuk a munkapulthoz, hogy minden felesleges légbuborék távozzon és 30-40 perc hagyjuk állni őket. 
+                Szigorúan 15 percig sütjük őket légkeverésen, és nem nyitogatjuk a sütőajtót. Miután megsültek, hagyjuk őket teljesen kihűlni, és kezdhetjük az összeállítást. 
+                A csokoládékrémet habzsákba töltjük, és szépen megtöltjük vele a macaronok egyik felét, majd rátesszük a tetejüket.
+                Elkészítési idő: 2 óra
+                Sütési idő: 15 perc
+                Sütési hőfok: 150C°-on (Sütőtől függően)
+            </TextBlock>
+
+            <Image x:Name="mt_kocka" Source="Images/Etelek/malnastejszínhabos.jpg" Margin="364,0,220,396" Visibility="Collapsed"/>
+            <TextBlock Name="mtk_hozzavalok" FontSize="17" Margin="577,1,13,402" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+                Hozzávalók: Tésztához: -4 db L-es tojás -10 dkg eritrit -1 kk sütőpor -8 dkg liszt Málnakrémhez: -30 dkg málna -2 dl víz -15 dkg eritrit -40 g vaníliás pudingpor Tejszínhez: -5 dl habtejszín -5 dkg eritrit -20 g habfixáló -10 dkg málna a díszítéshez
+            </TextBlock>
+            <TextBlock Name="mtk_elkeszites" FontSize="16" Margin="349,173,11,15" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                Elkészítés: A tojások fehérjét az édesítővel habosra verjük, majd hozzáadjuk a tojások sárgáját, amivel tovább habosítjuk. Ha simára kevertük, mehet hozzá a liszt és a sütőport. 
+                Egy tepsit kibélelünk sütőpapírral és beleöntjük a masszánkat, majd az előmelegített 175 C°-os sütőbe 15 percig sütjük. Hagyjuk hülni, aztán lehúzzuk a papírt róla és visszatesszük a tepsibe. 
+                A málnakrém elkészítése: 10 dkg málnát félreteszünk a díszítéshez, a maradékot feltesszük főni az édesítővel és 1dl vízzel.
+                A pudingport összekepverjük a másik 1 dl vízzel, és ha a málna felfőtt, összemixeljük, majd visszatesszük főni, hozzáöntjük a pudingport, alaposan összefőzzük, majd végül rákenjük a piskótalapra. 
+                A tejszín elkészítése: a hideg habtejszínt az édesítővel és keverjük kemény habbá a géppel. Ha szükséges tegyünk bele 2 csomag habfixálót is. 
+                Ha már megkeményedett nagyából, kenjük rá a málnás puding és tegyük hűtőbe, hogy kihűljön. Felkockázzuk, díszítjük tetszés szerint a málnaszemekkel és tálalhatjuk ezt a menyjei desszertet.
+                Elkészítési idő: 1/2 óra
+                Sütési idő: 15 perc
+                Sütési hőfok: 175C°-on (Sütőtől függően)
+            </TextBlock>
+
+            <Image Name="meggyesr_pite" Source="Images/Etelek/meggyespite.jpg" Margin="363,12,194,378" Visibility="Collapsed"/>
+            <TextBlock Name="mrp_hozzavalok" FontSize="17" Margin="592,1,14,362" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+                Hozzávalók: Tésztához: -500 g finomliszt -1 ek sütőpor -120 g porcukor -200 g vaj -2 ek tejföl -1 db tojás -0.5 citrom héja -1 csipet só Töltelékhez: -350 g meggy -100 g cukor -1 tk fahéj Összeállításhoz: -2 ek vaj -  ek zsemlemorzsa -2 csapott ek búzadara -2 marék dió (darált) -1 db tojás
+            </TextBlock>
+            <TextBlock Name="mrp_elkeszites" FontSize="16" Margin="359,190,26,35" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                Elkészítés:A lisztet, a cukrot a sütőport a szobahőmérsékletű vajat, a tejfölt és a tojást összekeverjük. Belereszeljük egy fél citrom héját, ízesítjük sóval, majd tésztát gyúrunk belőle. 
+                A tészta mehet a hűtőbe fél-egy órára. A meggyet megmossuk, kimagozzuk, majd egy közepes edényben összeömlesztjük a cukorral és a fahéjjal, és elkezdjük forralni.
+                Kb. 20 perc alatt tölteléket főzünk belőle, majd hagyjuk egy kicsit hűlni. A kiválasztott piteformát kivajazzuk és a behűtött tészta 2/3-ad részét elkezdjük belenyomkodni a formába. 
+                Az elegyengetett tésztát szurkáljuk meg villával, majd a 170°-ra előmelegített sütőben süssük elő 10 percet. Kivéve a sütőből hagyjuk egy kicsit hűlni.
+                A félkész tésztát ezután érdemes megszórni a zsemlemorzsával, a búzadarával és a dióval. Miután a töltelék is a pitébe került, a tészta megmaradt 1/3-ad részét nyújtsuk ki, majd vágjunk belőle egyforma csíkokat. 
+                Helyezzük a pite tetejére, majd kenjük meg jól egy felvert tojással. Ezután mehet vissza a pite a sütőbe és süssük készre. 
+                Sütési idő: 15-20 perc
+                Sütési hőfok: 170C°-on (Sütőtől függően)
+            </TextBlock>
+
+            <Image Name="pizzas_csigusz" Source="Images/Etelek/kep_03.png" Margin="367,11,181,366" Visibility="Collapsed"/>
+            <TextBlock Name="p_hozzavalok" FontSize="17" Margin="608,3,17,311" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+                Hozzávalók: Tésztához: -60 dkg finomliszt -3 dl langyos 2.8 % tej -4-5 dkg élesztő -10 dkg vaj vagy margarin -só -1 db egész tojás Szószhoz: -2 db kisebb vöröshagyma -2-3 dl ketchup -10-15 dkg kolozsvári szalonna -10-15 dkg gépsonka -oregánó -bazsalikom -rozmaring ízlés szerint -só -őrölt fehér bors -10-12 dkg reszelni való sajt
+            </TextBlock>
+            <TextBlock Name="p_elkeszites" FontSize="16" Margin="367,264,30,39" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                Elkészítés: A listet, langyos tejet, élesztőt, vajat, sót és a tojást összedolgozzuk, majd egy homogén tésztát gyúrunk belőle. Dagasztás után kb. 20 percig kelni hagyjuk majd nyújthatjuk. 
+                Ameddig kel a tészta elkészíthetjük a szószt, ami a tölteléket adja majd. Ha minden elkészült a kinyújtott tásztába belekenhetjük a tölteléket. Ezután kerülhet rá ízlés szerint sajt is. 
+                Az ízesítés után elkezdhetjük feltekerni a tésztát csiga formába. Ezután felvágjuk és egy tepsibe helyezve hagyjuk kelni még 30 percet. Ezután 1 tojással megkenjük a csigákat és ízlés szeirnt lehet sajtot szórni. 
+                Ezután meleg helyen még 10 percig kelesztjük majd mehet a sütőbe.
+                Elkészítési idő: 1 óra
+                Sütési idő: 10-13 perc
+                Sütési hőfok: 200C° (Sütőtől függően)
+            </TextBlock>
+
+            <Image Name="sajtos_ropi" Source="Images/Etelek/kep_05.png" Margin="365,6,165,363" Visibility="Collapsed"/>
+            <TextBlock Name="sr_hozzavalok" FontSize="17" Margin="622,12,26,282" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+                Hozzávalók: -350 g finomliszt  -250 g teavaj -200 g Szarvasi Perfetto sajt amiből 130g a tésztába 70 g a sós sütemény tetejére -2 db egész tojás a tésztába -1 db egésztojás a kenéshez -1 teáskanál só a tésztába és egy erős csipet kenésnél a tojásba -1 evőkanál 20 % tejfel -ízlés szerinti kömény mennyiség
+            </TextBlock>
+            <TextBlock Name="sr_elkeszites" FontSize="16" Margin="370,277,31,57" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                Elkészítés: A liszhez hozzáadunk kb. fél púposkanál sót (ízlés szerint lehet változtatni), 2 csipet őrölt köményt majd a hideg vajjal össze kell morzsolni. Ezután jöhetnek hozzá a lazán felkevert tojások, a tejföl majd a reszelt sajt. 
+                Ezt jó alaposan össze kell dolgozni. A homogén tésztát szétválasztom 2 egyenlő gombócra, majd a hűtőben 30-60 percig kell pihentetni. Az idő leteltével vékonyra kell nyújtani majd ízlés szerint sajttal, szezámmaggal lehet dísziteni.
+                Elkészítési idő: 1/2 óra
+                Sütési idő: 20 perc
+                Sütési hőfok: 190C° (Sütőtől függően)
+                Sütési mód: alsó felső fokozatban, középső polcon
+            </TextBlock>
+
+            <Image Name="somloi" Source="Images/Etelek/somloi.jpg" Margin="385,6,130,315" Visibility="Collapsed"/>
+            <TextBlock Name="sg_hozzavalok" FontSize="17" Margin="654,16,26,318" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+                Hozzávalok: Krémhez: -1 l tej -3 csomag vaníliás cukor -9 evőkanál cukor -4 evőkanál kakaó -4 evőkanál liszt -10 dkg margarin
+                Piskótához: -6 db tojás -180g cukor -3 evőkanál napraforgó olaj -150 g liszt -1.5 teáskanál sütőpor -1 csipet só
+            </TextBlock>
+            <TextBlock Name="sg_elkeszites" FontSize="16" Margin="358,244,20,33" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                Elkészítés: Először a piskótát csináljuk meg. Első lépésben a tojásokat összekeverjük a cukorral robotgéppel. A tojásos alaphoz csorgatjuk az olajat és azt is elkeverjük. 
+                Beleszitáljuk a lisztet, sót és a sütőport, majd ezeket is elkeverjük a géppel. A masszát beleöntjük a sütőpapírral kibélelt formába, majd a 180 fokra előmelegített sütőbe helyezzük 15-20 percig. 
+                Amíg várjuk, hogy kihűljön, elkészítjük a csokis öntetet hozzá. Minden hozzávalót krémmé főzünk egy lábosban, majd a legvégén hozzáadjuk a margarint is. Ha kihült apró kockára összedaraboljuk a piskótát. 
+                Jénaiba rétegesen berakjuk, rummal vagy rumaormás tejjel meglocsolni és leönteni a csokis krémmel. NEM RAKUNK BELE MAZSOLÁT! Fogyasztákor illetve tálaláskor tejszínhabbal díszíthetjük.
+                Elkészítési idő: 1 óra
+                Sütési idő: 15-20 perc
+                Sütési hőfok: 180C°-on (Sütőtől függően)
+            </TextBlock>
+
+            <Image Name="sos_apro" Source="Images/Etelek/kep_02.png" Margin="378,22,149,339" Visibility="Collapsed"/>
+            <TextBlock Name="sa_hozzavalok" FontSize="17" Margin="644,6,34,308" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.19"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.747"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+                Hozzávalók: -1/2 kg finomliszt -25 dkg teavaj -2 dl habtejszín vagy 2 dl 20 % tejfel -só ízlés szerint -2 db tojás sárgája -1 egész tojás a kenéshez -10-15 dkg sajt a tésztába -szóráshoz ismételten reszelt sajt ízlés szerint és egész kömény (elhagyható)
+            </TextBlock>
+            <TextBlock Name="sa_elkeszites" FontSize="16" Margin="385,284,34,56" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Visibility="Collapsed">
+                Elkészítés: A szobahőmérsékletű vajat hozzáadom a liszthez majd elmorzsolom. Ha kész hozzá kell adni a sajtot majd így is elkeverni. Ezt követően kerülhet bele a tojás sárgája, a 2 dl tejfel (vagy tejszín) majd ízlés szerint sózni kell. 
+                A homogén, összegyúrt tésztát egy órára a hűtőbe kell pihentetni. Az idő leteltével ki kell nyújtani, meg kell kenni tojással majd ízlés szerint sajttal, szezámmaggal, köményyel ízesíteni lehet.
+                Elkészítési idő: 1/2 óra
+                Sütési idő: 20 perc
+                Sütési hőfok: 180C°-on (Sütőtől függően)
+                Sütési mód: villany sütőben, légkeveréses módban. (Sütőtől függően)
+            </TextBlock>
 
         </Grid>
 

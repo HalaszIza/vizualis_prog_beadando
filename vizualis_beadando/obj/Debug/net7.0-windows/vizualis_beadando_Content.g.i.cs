@@ -19,7 +19,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/etelek/somloi.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/foetelek.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/heti_ajanlat.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/kockas-hatter.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/kocks-hatter.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/orszag_tortai.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/sutemenyek.png")]
 

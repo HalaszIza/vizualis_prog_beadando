@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
-        Title="OrszagTortai" Height="450" Width="800">
+        Title="OrszagTortai" Height="600" Width="900">
     <DockPanel>
 
         <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">

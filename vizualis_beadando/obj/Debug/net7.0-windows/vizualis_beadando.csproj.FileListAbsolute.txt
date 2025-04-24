@@ -62,7 +62,7 @@ D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug
 D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug\net7.0-windows\Images\Etelek\somloi.jpg
 D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug\net7.0-windows\Images\foetelek.png
 D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug\net7.0-windows\Images\heti_ajanlat.png
-D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug\net7.0-windows\Images\kockas-hatter.jpg
 D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug\net7.0-windows\Images\orszag_tortai.png
 D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug\net7.0-windows\Images\sutemenyek.png
 D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando_Content.g.cs
+D:\vs_gyakorlas\vizualis_prog\vizualis_prog_beadando\vizualis_beadando\bin\Debug\net7.0-windows\Images\kocks-hatter.png
