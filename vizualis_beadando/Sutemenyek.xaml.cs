@@ -45,6 +45,7 @@ namespace vizualis_beadando
             mtk_elkeszites.Visibility = Visibility.Visible;
             mt_kocka.Visibility = Visibility.Visible;
 
+
         }
 
         private void meggyes_Bt(object sender, RoutedEventArgs e)
