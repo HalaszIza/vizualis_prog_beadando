@@ -8,6 +8,8 @@
 // the code is regenerated.
 //------------------------------------------------------------------------------
 
+using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -48,12 +50,28 @@ namespace Model
         public virtual Tortak Tortak { get; set; }
 
         public virtual Foetelek Foetelek { get; set; }
+        //public class AppDbContext : DbContext
+        //{
+          //  public DbSet<User> Users { get; set; }
 
-        #region Extensibility Method Definitions
+            //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            //{
+              //  optionsBuilder.UseSqlServer(
+                //    @"Server=(localdb)\mssqllocaldb;Database=UserAuthDB;Trusted_Connection=True;");
+            //}
+
+            //protected override void OnModelCreating(ModelBuilder modelBuilder)
+            //{
+              //  modelBuilder.Entity<User>()
+                ////    .HasIndex(u => u.felhasznalo)
+                    //.IsUnique();
+            //}
+        //}
+
 
         partial void OnCreated();
 
-        #endregion
+  
     }
 
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs_gyakorlas\\vizualis_prog\\vizualis_prog_beadando\\vizualis_beadando\\vizualis_beadando.csproj": {}
+    "C:\\Users\\sipos\\Source\\Repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\vizualis_beadando.csproj": {}
   },
   "projects": {
-    "D:\\vs_gyakorlas\\vizualis_prog\\vizualis_prog_beadando\\vizualis_beadando\\vizualis_beadando.csproj": {
+    "C:\\Users\\sipos\\Source\\Repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\vizualis_beadando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_gyakorlas\\vizualis_prog\\vizualis_prog_beadando\\vizualis_beadando\\vizualis_beadando.csproj",
+        "projectUniqueName": "C:\\Users\\sipos\\Source\\Repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\vizualis_beadando.csproj",
         "projectName": "vizualis_beadando",
-        "projectPath": "D:\\vs_gyakorlas\\vizualis_prog\\vizualis_prog_beadando\\vizualis_beadando\\vizualis_beadando.csproj",
-        "packagesPath": "C:\\Users\\ASUS-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_gyakorlas\\vizualis_prog\\vizualis_prog_beadando\\vizualis_beadando\\obj\\",
+        "projectPath": "C:\\Users\\sipos\\Source\\Repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\vizualis_beadando.csproj",
+        "packagesPath": "C:\\Users\\sipos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sipos\\Source\\Repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sipos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,10 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
             "Extended.Wpf.Toolkit": {
               "target": "Package",
               "version": "[4.7.25104.5739, )"
@@ -58,6 +62,28 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[5.2.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
             }
           },
           "imports": [
@@ -79,7 +105,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

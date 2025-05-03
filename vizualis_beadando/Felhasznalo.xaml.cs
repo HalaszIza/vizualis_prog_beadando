@@ -19,14 +19,22 @@ namespace vizualis_beadando
     /// </summary>
     public partial class Felhasznalo : Window
     {
+        Felhasznalo proba = new Felhasznalo();
         public Felhasznalo()
         {
             InitializeComponent();
+            // InitializeDatabase(); //tudjon kommunikálni a databaseel
+
+        }
+        private void bt_Bej(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void bt_Reg(object sender, RoutedEventArgs e)
+        {
+
         }
 
-        private void mi_Főoldal_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
+
     }
 }
