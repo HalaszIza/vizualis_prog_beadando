@@ -10,6 +10,7 @@
   <ItemGroup>
     <None Remove="hatterV.png" />
     <None Remove="Images\belepes.png" />
+    <None Remove="Images\egetett_habos.jpg" />
     <None Remove="Images\Etelek\kep_02.png" />
     <None Remove="Images\Etelek\kep_03.png" />
     <None Remove="Images\Etelek\kep_04.png" />
@@ -30,12 +31,19 @@
     <None Remove="Images\hatter02.jpg" />
     <None Remove="Images\heti_ajanlat.png" />
     <None Remove="Images\kocks-hatter.png" />
+    <None Remove="Images\makvirag.png" />
+    <None Remove="Images\malnas_fehercsokis.jpg" />
+    <None Remove="Images\nour_signature.jpg" />
     <None Remove="Images\orszag_tortai.png" />
     <None Remove="Images\sutemenyek.png" />
+    <None Remove="Images\tejcsokolade-kardamon-korte.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Images\belepes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\egetett_habos.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Etelek\kep_02.png">
@@ -98,10 +106,22 @@
     <Content Include="Images\kocks-hatter.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\makvirag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\malnas_fehercsokis.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\nour_signature.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\orszag_tortai.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\sutemenyek.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\tejcsokolade-kardamon-korte.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

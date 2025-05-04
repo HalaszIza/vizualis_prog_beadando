@@ -9,6 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/belepes.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/egetett_habos.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/etelek/kep_02.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/etelek/kep_03.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/etelek/kep_04.png")]
@@ -29,7 +30,11 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/hatter02.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/heti_ajanlat.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/kocks-hatter.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/makvirag.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/malnas_fehercsokis.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/nour_signature.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/orszag_tortai.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/sutemenyek.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tejcsokolade-kardamon-korte.png")]
 
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vizualis_beadando")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f862577a9b9c3d7a0be2588fd3d561355a309930")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fd9c6a04dbc0eb1670a6ab2dcf89708e0934ee0")]
 [assembly: System.Reflection.AssemblyProductAttribute("vizualis_beadando")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vizualis_beadando")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

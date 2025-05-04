@@ -496,3 +496,8 @@ C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\vi
 C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando.csproj.CopyComplete
 C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando.genruntimeconfig.cache
 C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\ref\vizualis_beadando.dll
+C:\Users\sipos\source\repos\vizualis_prog_beadando3579672\vizualis_beadando\bin\Debug\net7.0-windows\Images\egetett_habos.jpg
+C:\Users\sipos\source\repos\vizualis_prog_beadando3579672\vizualis_beadando\bin\Debug\net7.0-windows\Images\makvirag.png
+C:\Users\sipos\source\repos\vizualis_prog_beadando3579672\vizualis_beadando\bin\Debug\net7.0-windows\Images\malnas_fehercsokis.jpg
+C:\Users\sipos\source\repos\vizualis_prog_beadando3579672\vizualis_beadando\bin\Debug\net7.0-windows\Images\nour_signature.jpg
+C:\Users\sipos\source\repos\vizualis_prog_beadando3579672\vizualis_beadando\bin\Debug\net7.0-windows\Images\tejcsokolade-kardamon-korte.png
