@@ -5,17 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
-        Title="HetiAjanlat" Height="600" Width="900">
+        Title="HetiAjanlat" Height="642" Width="1000" SizeToContent="Manual" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <DockPanel>
 
-        <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
-            <MenuItem Header="Főoldal" Width="100" Height="30" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="15"/>
-        </Menu>
+                <Menu DockPanel.Dock="Top" Background="YellowGreen">
+                    <MenuItem Header="Főoldal" Width="150" Height="40" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="30"/>
+                </Menu>
 
-        <Grid Background="#FFFFEBA2">
+                <Grid x:Name="MainGrid" Background="#FFFFEBA2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
 
+                        <!-- Row 1 -->
+                        <RowDefinition Height="*"/>
+                        <!-- Row 2 -->
+                        <RowDefinition Height="*"/>
+                        <!-- Row 3 -->
+                    </Grid.RowDefinitions>
 
+                    <!-- Column definitions -->
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <!-- Column 0 -->
+                        <ColumnDefinition Width="*"/>
+                        <!-- Column 1 -->
+                        <ColumnDefinition Width="*"/>
+                        <!-- Column 2 -->
+                        <ColumnDefinition Width="*"/>
+                        <!-- Column 3 -->
 
-        </Grid>
-    </DockPanel>
-</Window>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.ColumnSpan="4" Grid.RowSpan="3" Source="/Images/hatter02.jpg" Stretch="Fill"/>
+
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="Heti " FontSize="35" FontWeight="Bold" HorizontalAlignment="Right"/>
+                    <TextBlock Grid.Row="0" Grid.Column="2" Text="ajánlat: " FontSize="35" FontWeight="Bold" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="Hétfő" Grid.Row="1" Grid.Column="0" Text="Hétfő:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" FontWeight="SemiBold" />
+                    <TextBlock x:Name="Kedd" Grid.Row="1" Grid.Column="1" Text="Kedd:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" FontWeight="SemiBold" />
+                    <TextBlock x:Name="Szerda" Grid.Row="1" Grid.Column="2" Text="Szerda:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" FontWeight="SemiBold" />
+                    <TextBlock x:Name="Csütörtök" Grid.Row="1" Grid.Column="3" Text="Csütörtök:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" FontWeight="SemiBold" />
+                    <TextBlock x:Name="Péntek" Grid.Row="2" Grid.Column="0" Text="Péntek:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" FontWeight="SemiBold"/>
+                    <TextBlock x:Name="Szombat" Grid.Row="2" Grid.Column="1" Text="Szombat:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" FontWeight="SemiBold" />
+                    <TextBlock x:Name="Vasárnap" Grid.Row="2" Grid.Column="2" Text="Vasárnap:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" FontWeight="SemiBold" />
+                </Grid>
+            </DockPanel>
+        </Window>
+   

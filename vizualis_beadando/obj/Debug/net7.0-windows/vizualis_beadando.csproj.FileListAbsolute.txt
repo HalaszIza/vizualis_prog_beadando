@@ -169,3 +169,17 @@ C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\vi
 C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando.dll
 C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\refint\vizualis_beadando.dll
 C:\Users\BBB\Desktop\Új mappa (2)\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando.pdb
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando.csproj.AssemblyReference.cache
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\Felhasznalo.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\Foetelek.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\HetiAjanlat.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\OrszagTortai.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\Sutemenyek.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando_Content.g.cs
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando_MarkupCompile.cache
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando_MarkupCompile.lref
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando.dll
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\refint\vizualis_beadando.dll
+C:\Users\BBB\Desktop\Új mappa\vizualis_beadando\obj\Debug\net7.0-windows\vizualis_beadando.pdb

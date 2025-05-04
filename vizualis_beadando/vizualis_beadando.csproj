@@ -26,6 +26,7 @@
     <None Remove="Images\Fo\paprikas.png" />
     <None Remove="Images\Fo\teszta.png" />
     <None Remove="Images\Fo\tokfozelek.png" />
+    <None Remove="Images\hatter02.jpg" />
     <None Remove="Images\heti_ajanlat.png" />
     <None Remove="Images\kocks-hatter.png" />
     <None Remove="Images\orszag_tortai.png" />
@@ -85,6 +86,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Fo\tokfozelek.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\hatter02.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\heti_ajanlat.png">

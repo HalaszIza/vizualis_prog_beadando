@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yfYEuX91sZusS51dPvtqFEgz3ZxEyMdT7faVFYXgiph16Bm3NT98oGQe5tUQCMXUqixJNNeDq6Kly/cvXWfsWQ==",
+  "dgSpecHash": "BbyMqhB9lOsK6PUPm28SVYCP1dc/aBMq8UoaVF82somA4+bMpn69KpIF6V26oi5oM7j/hcYw1f9ShvP5O96Kuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BBB\\Desktop\\Új mappa (2)\\vizualis_beadando\\vizualis_beadando.csproj",
+  "projectFilePath": "C:\\Users\\BBB\\Desktop\\Új mappa\\vizualis_beadando\\vizualis_beadando.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BBB\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\BBB\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

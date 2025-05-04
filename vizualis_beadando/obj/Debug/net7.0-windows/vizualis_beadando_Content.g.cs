@@ -26,6 +26,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/fo/paprikas.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/fo/teszta.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/fo/tokfozelek.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/hatter02.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/heti_ajanlat.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/kocks-hatter.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/orszag_tortai.png")]
