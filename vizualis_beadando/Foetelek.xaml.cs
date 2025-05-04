@@ -96,7 +96,7 @@ namespace vizualis_beadando
         }
 
 
-        private void Uj_suti(object sender, RoutedEventArgs e)
+        private void Uj_etel(object sender, RoutedEventArgs e)
         {
             if (Button_sum1.Visibility == Visibility.Visible)
             {

@@ -73,7 +73,7 @@
                     <Button Content="Bolognai spagetti" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="bolog_Bt" Height="45"/>
 
                 </StackPanel>
-                <Button Content="Muti az új főételt" Background="#FFFBC2C2" BorderBrush="{x:Null}" FontSize="25" Click="Uj_suti" Height="45" Width="234"/>
+                <Button Content="Muti az új főételt" Background="#FFFBC2C2" BorderBrush="{x:Null}" FontSize="25" Click="Uj_etel" Height="45" Width="234"/>
 
             </ListBox>
 
