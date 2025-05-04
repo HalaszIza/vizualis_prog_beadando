@@ -5,14 +5,263 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vizualis_beadando"
         mc:Ignorable="d"
-        Title="Foetelek" Height="600" Width="900">
+        Title="Foetelek" Height="700" Width="946" SizeToContent="Manual" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <DockPanel>
 
         <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
-            <MenuItem Header="Főoldal" Width="100" Height="30" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="15"/>
+            <MenuItem Header="Főoldal" Width="242" Height="40" Click="mi_Főoldal_Click" Background="#FFFBC2C2"  Padding="30,0,20,0" FontSize="30"/>
         </Menu>
 
         <Grid Background="#FFFFEBA2">
+
+            <Grid.Resources>
+                <Style TargetType="{x:Type Image}" >
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                    <Setter Property="Margin" Value="5"/>
+                </Style>
+            </Grid.Resources>
+
+            <TextBlock Text="Néhány kedvenc főétel recept:" FontSize="22" Grid.ColumnSpan="2"/>
+
+            <ListBox Margin="10,38,0,15" Background="Transparent" BorderBrush="{x:Null}" Grid.ColumnSpan="2">
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum1">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Carbonara spagetti" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="carbon_Bt" Height="45"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum2">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Tökfőzelék fasírttal" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="fozelek_Bt" Height="45"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum3">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold" />
+                    <Button Content="Spenótos, gombás tészta" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="teszta_Bt" Height="45"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum4">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Chilis bab" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="chilis_Bt" Height="45"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum5">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Lasagne" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="lasagne_Bt" Height="45"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum6">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Paprikás krumpli virslivel" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="paprikas_Bt" Height="45"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum7">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Csirkeburger" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="burger_Bt" Height="45"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" x:Name="Button_sum8">
+                    <TextBlock Text="~" FontSize="25" FontWeight="Bold"/>
+                    <Button Content="Bolognai spagetti" FontStyle="Italic" FontSize="25" Background="{x:Null}" BorderBrush="{x:Null}" Click="bolog_Bt" Height="45"/>
+
+                </StackPanel>
+                <Button Content="Muti az új főételt" Background="#FFFBC2C2" BorderBrush="{x:Null}" FontSize="25" Click="Uj_suti" Height="45" Width="234"/>
+
+            </ListBox>
+
+            <Canvas>
+                <Image Source="Images/kocks-hatter.png" Canvas.Left="349" Canvas.Top="-8"/>
+            </Canvas>
+
+            <Canvas>
+                <Image x:Name="carb" Source="Images/Fo/carbon.png" Height="124" Canvas.Left="363" Canvas.Top="24" Width="226" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Collapsed"/>
+                <TextBlock x:Name="carbon_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Height="148" Canvas.Left="630" Width="252" Canvas.Top="17" HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Justify" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.747"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                Hozzávalók:  -50 dkg spagetti -2 db tojás -2 db tojássárgája -10 dkg parmezán -25 dkg füstölt, főtt sonka -1 teáskanál olaj -1 evőkanál vaj -só -bors
+                </TextBlock>
+                <TextBlock x:Name="carbon_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="368" Canvas.Top="191" Width="518" HorizontalAlignment="Center" VerticalAlignment="Top" Height="333" TextAlignment="Justify" Visibility="Collapsed">                
+                Elkészítés:
+               A carbonarához sós vízben al dentére, azaz fogkeményre főzzük a tésztát, tehát a belseje még egy kicsit kemény marad.
+               Amíg fő a tészta, addig két egész tojást és két tojássárgáját felverünk és elkeverjük benne a reszelt parmezánt. Ha szeretnénk, picit sózhatjuk, de csak óvatosan, mert a sajt és a sonka is sós lehet.
+               A sonkát 1x1 centis kockákra vágjuk, olvasztott vaj és olaj keverékén lepirítjuk.
+               A megfőtt tészta főzővizéből félreteszünk egy bögrényit, majd leszűrjük és a tésztát összekeverjük a pirított sonkával. Erre öntjük a tojásos keveréket, pár percig még pirítjuk, legvégül felöntjük a félretett főzővízzel és gyors mozdulatokkal összekeverjük. Ha száraznak ítéljük, akkor önthetünk alá még egy kevés vizet, de nem szabad sokáig tűz fölött kevergetni a carbonarát, mert megsül a tojás.
+               Frissen őrölt borssal tálaljuk és még melegen fogyasztjuk.
+                Elkészítési idő: 30 perc.
+                </TextBlock>
+            </Canvas>
+            <Canvas>
+                <Image x:Name="Tokfozelek" Source="Images/Fo/tokfozelek.png" Height="103" Canvas.Left="372" Canvas.Top="10" Width="182" Visibility="Collapsed"/>
+                <TextBlock x:Name="tokfozelek_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Height="171" Canvas.Left="569" Width="313" Canvas.Top="8" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Justify" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.747"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>    
+                Hozzávalók: A főzelékhez: - 1 vöröshagyma - 4 ek olaj - 60 dkg gyalult tök - só - 1 ek liszt - 1 ek pirospaprika - 1 marék kapor - 1 kis pohár tejföl
+                A fasírthoz: - 50 dkg darált sertéshús - 1 db tojás - 1 fej vöröshagyma - 2 gerezd fokhagyma - só - bors
+                </TextBlock>
+                <TextBlock x:Name="tokfozelek_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="364" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Top" Width="512" Height="390" TextAlignment="Justify" Visibility="Collapsed">
+                Elkészítés: A megpucolt és felaprított hagymát 2 ek felforrósított olajon megdinszteljük. Ha már üveges, hozzáadjuk a gyalult tököt. Megsózzuk ízlés szerint, majd felöntjük egy kevés vízzel, és fedő alatt pároljuk.
+                Közben egy kisebb serpenyőben elkészítjük a paprikás rántást: a maradék olajon - állandó keverés mellett- aranybarnára pirítjuk a lisztet. A tűzről lehúzva beleszórjuk a pirospaprikát, és simára keverjük.
+                Ha már megpuhult a tök, hozzákeverjük a rántást, a finomra aprított kaprot és a tejfölt. Felforraljuk, és pár perc főzés után levesszük a tűzről.
+                A fasírthoz a darált húst a kezünkkel alaposan összegyúrjuk, majd hozzáadjuk a felvert tojást, a felaprított és megdinsztelt hagymát és a zúzott fokhagymát. Megsózzuk, megborsozzuk, és hozzáadjuk a pirospaprikát. Összegyúrjuk, és ha szükséges, hozzáadagolunk egy kevés lisztet.
+                Pingponglabda méretű golyókat gyúrunk a masszából, majd mindet meghempergetjük a lisztben. Végül forró olajban ropogósra, aranybarnára sütjük. A fasírtot a tökfőzelék feltétjeként tálaljuk.
+                Elkészítési idő: 45 perc.
+                </TextBlock>
+            </Canvas>
+            <Canvas>
+                <Image x:Name="Teszta" Source="Images/Fo/teszta.png" Height="121" Canvas.Left="365" Canvas.Top="15" Width="155" Visibility="Collapsed"/>
+                <TextBlock x:Name="teszta_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="544" Width="328" Canvas.Top="14" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Justify" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.747"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                Hozzávalók: - 500 g fusilli tészta - 250 ml főzőtejszín - 400 g gomba - 1 doboz spenót - ízlés szerint parmezán sajt - ízlés szerint olívaolaj - ízlés szerint só, bors - ízlés szerint oregánó - ízlés szerint chilli pehely
+                </TextBlock>
+                <TextBlock x:Name="teszta_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="370" Canvas.Top="210" Width="510" HorizontalAlignment="Center" VerticalAlignment="Top" Height="356" TextAlignment="Justify" Visibility="Collapsed">
+                Elkészítés: A tésztát sós vízben megfőzzük.
+                Egy közepes méretű hagymát felaprítunk s olívaolajban megpirítjuk.
+                A felaprított hagymára jöhet a gomba és ekkor sózzuk és borsozzuk is meg.
+                Amikor a gomba összeesett és jól át sült hozzá öntjük a tejszínt. Hagyjuk, hogy érjenek össze az ízek majd a legvégén tegyük hozzá a spenótot.
+                A tészta főzőlevéből kiveszünk 2 merőkanállal s felöntjük vele a szószt. Pár perc főzés után ízesítjük sóval, borssal, oregánóval, és ízlés szerint chili pehelyel.
+                Amikor megfőtt a tészta belekeverjük a szószba és parmezán sajttal tálaljuk.
+                Elkészítési idő: 30 perc.
+                </TextBlock>
+            </Canvas>
+            <Canvas>
+                <Image x:Name="Chilisbab" Source="Images/Fo/chilis.png" Height="129" Canvas.Left="359" Canvas.Top="7" Width="185" Visibility="Collapsed"/>
+                <TextBlock x:Name="chilis_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="568" Canvas.Top="13" Width="313" TextAlignment="Justify" HorizontalAlignment="Left" Height="166" VerticalAlignment="Center" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.747"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                Hozzávalók: - 500 g darált sertéshús - 2 ek olaj - 1 nagy vöröshagyma - 2 gerezd fokhagyma - 500 ml paradicsomlé - 300 g csemegekukorica - 500 g vörösbab - só ízlés szerint - bors ízlés szerint - 1 tk majoranna - 1 tk oregánó - 1 tk petrezselyem - 1 tk fűszerpaprika
+                </TextBlock>
+                <TextBlock x:Name="chilis_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="364" Canvas.Top="200" Width="524" HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Justify" Height="333" Visibility="Collapsed">
+                Elkészítés: A vöröshagymát apróra felkockázzuk, és kevés olívaolajon (vagy amin szeretnénk) elkezdjük párolni. Ha már üveges, rádobjuk a picire vágott fokhagymát. Maximum fél percig sütjük együtt, és rádobjuk a darált húst. Folyamatos kevergetés mellett pirítjuk.
+                A pirítás közepe fele elkezdjük fűszerezni. Rászórjuk a sót, borsot, majorannát, oregánót, petrezselymet, fahéjat és darált erőspaprikát. Ha már késznek tűnik a hús, megszórjuk pirospaprikával, ráöntjük a konzerv babot és kukoricát (a leve nélkül). Kis keverés után felöntjük a paradicsomlével. A megadott mennyiség nem pontos, a lényeg, hogy éppen ellepje az ételt.
+                Elkezdjük főzni, és közben hozzáadjuk a cayenne borsot vagy bármilyen más csípős fűszert, amit szeretünk. A mennyisége természetesen ízlés kérdése. Kb. 10 percig főzzük, és tálalható.                
+                Előkészítés ideje: 10 perc.
+                Főzés ideje: 20 perc.
+                </TextBlock>
+            </Canvas>
+            <Canvas>
+                <Image x:Name="Lasagne" Source="Images/Fo/lasagne.png" Height="137" Canvas.Left="372" Canvas.Top="33" Width="240" Visibility="Collapsed"/>
+                <TextBlock x:Name="lasagne_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="635" Canvas.Top="13" Width="251" HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Justify" Height="267" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19" AngleX="-1.226"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.74" X="-2.224"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                Hozzávalók: - 3 ek olívaolaj - 2 közepes fej vöröshagyma - 80 dkg darált sertés hús - 1 kk só - 500 ml paradicsomsűrítmény - 1 ek cukor - 3 szál bazsalikom - 1 ek oregánó - 1 kk bazsalikom - 1 kk bors - 150 ml víz - 500 g lasagne tészta - 100 g parmezán - 200 g trappista sajt - 250 ml 20%-os főzőtejszín
+                </TextBlock>
+                <TextBlock x:Name="lasagne_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="364" Canvas.Top="250" Width="514" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Justify" Visibility="Collapsed">
+                Elkészítés: Egy közepes edényben megdinszteljük az előre felaprított vöröshagymát.
+                Hozzáadjuk a darálthúst a bazsalikommal és a sóval együtt, majd lepirítjuk.
+                Hozzáadjuk a paradicsomsűrítményt, a vizet, a cukrot, a szárított fűszereket és átkeverés után fedő alatt 15 percig főzzük.
+                A fedőt eltávolítjuk és hozzáadjuk az alapunkhoz a tejszínt kevergetés mellett és forrásig hevítjük.
+                Egy tepsi aljára egyenletesen felhordunk egy merőkanállal az alapunkból, majd ráhelyezzük a lasagne tészta lapokat úgy, hogy fedje az alapunkat.
+                Ezt a rétegelést addig ismételjük, ameddig van tésztánk és szószunk. A második rétegtől, minden réteghez reszelt parmezán sajtot adunk. A rétegelést úgy kell végezni, hogy a legfelső réteg az szósz legyen.
+                Sütőbe helyezés előtt megszórjuk reszelt trappista sajttal.
+                180 C fokra előmelegített sütőben, 30 percig sütjük.                
+                Elkészítési idő: 1 óra.
+                </TextBlock>
+            </Canvas>
+            <Canvas>
+                <Image x:Name="paprikas_krumpli" Source="Images/Fo/paprikas.png" Height="134" Canvas.Left="371" Canvas.Top="34" Width="253" Visibility="Collapsed"/>
+                <TextBlock x:Name="paprikas_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="652" Canvas.Top="14" Width="225" TextAlignment="Justify" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.747"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                Hozzávalók: - 1 kg burgonya - 1 szelet szalonna - sertészsír - 1 fej vöröshagyma - 1 ek pirospaprika - 1 db paradicsom - só - bors - kömény - víz - 4 szál bécsi virsli
+                </TextBlock>
+                <TextBlock x:Name="paprikas_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="371" Canvas.Top="230" Width="505" HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Justify" Visibility="Collapsed">
+                Elkészítés: A krumplikat miután megpucoltuk, megmossuk, aztán felkockázzuk, vagy felkarikázzuk. Az apróra vágott szalonnát kevés zsiradékon megpirítjuk, majd amikor már szép barna, a felaprított vöröshagymát is hozzáadjuk és megdinszteljük.
+                Ha ezzel elkészültünk, lehúzzuk a tűzről a fazekat és megszórjuk a pirospaprikával. Elkeverjük, visszatesszük a tűzre, majd a felkockázott krumplit és a paradicsomot is hozzáadjuk. Sózzuk, borsozzuk, megszórjuk a köménnyel, aztán annyi vizet öntünk rá, amennyi pont ellepi a fazék tartalmát.
+                Rendszeres kevergetés mellett puhára pároljuk a krumplit, aztán a vége felé a felkarikázott bécsi virslit is beletesszük. Nem muszáj karikára vágni a virslit, nagyobb darabokban is a paprikás krumplihoz adhatjuk. Friss kenyérrel és kovászos uborkával kínáljuk.
+                Elkészítési idő: 65 perc.
+                </TextBlock>
+            </Canvas>
+            <Canvas>
+                <Image x:Name="csirkeburger" Source="Images/Fo/burger.png" Height="154" Canvas.Left="350" Canvas.Top="23" Width="219" Visibility="Collapsed"/>
+                <TextBlock x:Name="burger_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="550" Canvas.Top="15" Width="300" HorizontalAlignment="Left" VerticalAlignment="Center" TextAlignment="Justify" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.747"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                Hozzávalok: - 500 g darált sertéshús - 2 ek olaj - 1 nagy vöröshagyma - 2 gerezd fokhagyma - 500 ml paradicsomlé - 300 g csemegekukorica - 500 g vörösbab - só ízlés szerint - bors ízlés szerint - 1 tk majoranna - 1 tk oregánó - 1 tk petrezselyem - 1 tk fűszerpaprika
+                </TextBlock>
+                <TextBlock x:Name="burger_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="364" Canvas.Top="270" Width="512" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Justify" Visibility="Collapsed">
+                Elkészítés: A majonézt kikeverjük a rozmaringgal, a fokhagymával, sózzuk, borsozzuk ízlés szerint.
+                A majonézes keverék felét a darált húshoz keverjük, 2 db húspogácsát formázunk (kicsit ragadhat a kezünkhöz, de amint olajba kerül, nem lesz vele probléma).
+                A sütőben megpirítjuk a zsemléket, közben olajat hevítünk egy teflon serpenyőben, és kisütjük a húspogácsákat kb. 5 perc alatt/ oldal.
+                A megpirult zsemlék belső felét (alját és tetejét egyaránt) megkenjük a majonézes keverékkel.
+                A zsemlék aljára helyezzük a húspogácsákat, rá a paradicsomkarikákat, hagymakarikákat, 1-1 marék rukkolát, majd a zsemlék tetejét is ráhelyezzük.
+                Előkészítés ideje: 8 perc.
+                Sütés ideje: 10 perc.
+                </TextBlock>
+            </Canvas>
+            <Canvas>
+                <Image x:Name="bolognai" Source="Images/Fo/bolog.png" Height="157" Canvas.Left="350" Canvas.Top="34" Width="240" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Collapsed"/>
+                <TextBlock x:Name="bolog_hozzavalok" FontSize="17" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5" FontFamily="Forte" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="600" Canvas.Top="17" Width="270" TextAlignment="Justify" HorizontalAlignment="Left" VerticalAlignment="Center" Visibility="Collapsed">
+                    <TextBlock.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.19"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="-0.747"/>
+                        </TransformGroup>
+                    </TextBlock.RenderTransform>
+                Hozzávalók: - 500 g spagetti tészta - 600 g darált sertéshús - 200 g reszelt trappista sajt - 100 g sűrített paradicsom - 2 nagy fej vöröshagyma - 4 gerezd fokhagyma - oregánó ízlés szerint - majoranna ízlés szerint - só ízlés szerint - fekete bors ízlés szerint - 4 ek olívaolaj
+                </TextBlock>
+                <TextBlock x:Name="bolog_elkeszites" FontSize="16" TextWrapping="Wrap" FontFamily="Book Antiqua" FontWeight="Bold" Foreground="White" Grid.ColumnSpan="2" Canvas.Left="374" Canvas.Top="210" Width="508" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Justify" Visibility="Collapsed">
+                Készítsünk elő egy nagy fazekat. Töltsük 3/4-ig vízzel, majd ízesítsük pár csipet sóval. Amikor elkezd forrni a víz, rakjuk bele a tésztát, és egy pici olajat. Néha keverjük meg. Ha megfőtt a tészta, akkor vegyük elő a tésztaszűrőt, és szűrjük le, majd ugyanabba a lábasba tegyük vissza, és adjunk hozzá még egy pici olajat, majd picit forgassuk meg az olajban.
+                Vágjuk fel a hagymát finomra, és tegyük egy kisebb fazékba, pirítsuk üvegesre egy kis olajon. Ha a hagyma megpirult, adjuk hozzá a húst is, és nyomkodjuk szét, hogy ne egyben legyen.
+                A húshoz adjuk hozzá a fűszereket, ízlés szerint. Ezután hozzáadhatjuk a fokhagymakrémet, vagy az apróra felvágott/préselt fokhagyma gerezdeket. Jól forgassuk át a fazékban, majd ha a hús szinte fehér lett, akkor adjuk hozzá a paradicsomsűrítményt vagy a bazsalikomos paradicsomszószt. Ezt is jól forgassuk át, majd tegyünk rá egy fedőt. Kb. 3-5 percenként nézzük meg, és alaposan kevergessük át.
+                Reszelt sajttal tálaljuk.
+                Előkészítés ideje: 5 perc.
+                Főzés ideje: 25 perc.
+                </TextBlock>
+            </Canvas>
+
 
 
 

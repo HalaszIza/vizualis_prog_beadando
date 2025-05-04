@@ -18,6 +18,14 @@
     <None Remove="Images\Etelek\meggyespite.jpg" />
     <None Remove="Images\Etelek\somloi.jpg" />
     <None Remove="Images\foetelek.png" />
+    <None Remove="Images\Fo\bolog.png" />
+    <None Remove="Images\Fo\burger.png" />
+    <None Remove="Images\Fo\carbon.png" />
+    <None Remove="Images\Fo\chilis.png" />
+    <None Remove="Images\Fo\lasagne.png" />
+    <None Remove="Images\Fo\paprikas.png" />
+    <None Remove="Images\Fo\teszta.png" />
+    <None Remove="Images\Fo\tokfozelek.png" />
     <None Remove="Images\heti_ajanlat.png" />
     <None Remove="Images\kocks-hatter.png" />
     <None Remove="Images\orszag_tortai.png" />
@@ -53,6 +61,30 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\foetelek.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\bolog.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\burger.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\carbon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\chilis.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\lasagne.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\paprikas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\teszta.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Fo\tokfozelek.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\heti_ajanlat.png">
