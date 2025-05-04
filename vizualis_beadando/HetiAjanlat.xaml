@@ -9,7 +9,7 @@
     <DockPanel>
 
                 <Menu DockPanel.Dock="Top" Background="YellowGreen">
-                    <MenuItem Header="Főoldal" Width="150" Height="40" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="30"/>
+                    <MenuItem Header="Főoldal" Width="252" Height="40" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="30"/>
                 </Menu>
 
                 <Grid x:Name="MainGrid" Background="#FFFFEBA2">

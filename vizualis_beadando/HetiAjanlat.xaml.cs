@@ -21,13 +21,13 @@ namespace vizualis_beadando
     {
 
         private Random random = new Random();
-        // Sample lists of food items (customize these)
+        //Főételek nevei 
         private List<string> mainCourses = new List<string>
     {
         "Bolognai spagetti", "Csirkeburger", "Carbonara", "Chilis bab",
         "Lasagne", "Paprikás krumpli virslivel", "Tökfőzelék fasírttal", "Spenótos, gombás tészta"
     };
-
+        //Desszertek nevei 
         private List<string> desserts = new List<string>
     {
         "Krumplis pogácsa", "Macaron", "Málnás tejszínhabos kocka", "Meggyes rácsos pite",
@@ -47,21 +47,21 @@ namespace vizualis_beadando
 
         private void AddRandomMeals()
         {
-            // Clear existing meal content if any
+            //Törlés
             var existingPanels = MainGrid.Children.OfType<StackPanel>().ToList();
             foreach (var panel in existingPanels)
             {
                 MainGrid.Children.Remove(panel);
             }
 
-            // Create shuffled lists of meals
+            //Randomizálás
             var shuffledMains = mainCourses.OrderBy(x => random.Next()).ToList();
             var shuffledSides = desserts.OrderBy(x => random.Next()).ToList();
 
-            // Get all TextBlocks that represent days
+            //TextBlocks nevei
             var days = new[] { "Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap" };
 
-            // Make sure we don't exceed our meal options
+            //Ne lépjük túl a határokat
             int mealCount = Math.Min(Math.Min(days.Length, shuffledMains.Count), shuffledSides.Count);
 
             for (int i = 0; i < mealCount; i++)
@@ -69,14 +69,15 @@ namespace vizualis_beadando
                 var dayTextBlock = this.FindName(days[i]) as TextBlock;
                 if (dayTextBlock != null)
                 {
-                    // Create a StackPanel to hold both text items
+                    //StackPanel létrehozása a szövegeknek
                     var stackPanel = new StackPanel
                     {
                         VerticalAlignment = VerticalAlignment.Center,
-                        Margin = new Thickness(0, 30, 0, 0) // Add some top margin
+                        Margin = new Thickness(0, 30, 0, 0)
                     };
 
-                    // Add main course (no repeats)
+                    //Főétel hozzáadása, mindent 1x
+                    //Stílusok
                     var mainCourse = new TextBlock
                     {
                         Text = shuffledMains[i],
@@ -86,7 +87,8 @@ namespace vizualis_beadando
                         TextAlignment = TextAlignment.Center
                     };
 
-                    // Add side dish (no repeats)
+                    //Desszert hozzáadása, minden 1x 
+                    //Stílusok
                     var dessert = new TextBlock
                     {
                         Text = shuffledSides[i],
@@ -100,7 +102,7 @@ namespace vizualis_beadando
                     stackPanel.Children.Add(mainCourse);
                     stackPanel.Children.Add(dessert);
 
-                    // Add the StackPanel to the appropriate grid cell
+                    //StackPanel grid cell-hez adjuk
                     Grid.SetRow(stackPanel, Grid.GetRow(dayTextBlock));
                     Grid.SetColumn(stackPanel, Grid.GetColumn(dayTextBlock));
                     MainGrid.Children.Add(stackPanel);
