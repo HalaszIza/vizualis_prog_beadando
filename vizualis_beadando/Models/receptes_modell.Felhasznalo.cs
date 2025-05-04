@@ -14,17 +14,13 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 using System.Data.Common;
 using System.Linq;
 using System.Linq.Expressions;
-using vizualis_beadando.Data;
-using vizualis_beadando;
 
 namespace Model
 {
-    [Table("Felhasznalok")]
     public partial class Felhasznalo {
 
         public Felhasznalo()
@@ -33,10 +29,8 @@ namespace Model
         }
 
         [Key]
-        [Column("f_id")]
         public long f_id { get; set; }
-        [Required]
-        [Column("felhasznalo_n")]
+
         public string felhasznalo_n { get; set; }
 
         public long f_kedvenc_id { get; set; }
@@ -59,6 +53,23 @@ namespace Model
 
         public virtual Foetelek Foetelek { get; set; }
         partial void OnCreated();
+        public class AppDbContext : DbContext
+        {
+            public DbSet<Felhasznalo> Felhasznalok { get; set; }
+
+            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            {
+                optionsBuilder.UseSqlServer(
+                    @"Server=(localdb)\mssqllocaldb;Database=UserAuthDB;Trusted_Connection=True;");
+            }
+
+            protected override void OnModelCreating(ModelBuilder modelBuilder)
+            {
+                modelBuilder.Entity<Felhasznalo>()
+                    .HasIndex(u => u.felhasznalo_n)
+                    .IsUnique();
+            }
+        }
   
     }
 

@@ -8,9 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="hater.png" />
-    <None Remove="haterV.png" />
-    <None Remove="hatterV.png" />
     <None Remove="Images\belepes.png" />
     <None Remove="Images\Etelek\kep_02.png" />
     <None Remove="Images\Etelek\kep_03.png" />
@@ -34,7 +31,6 @@
     <None Remove="Images\kocks-hatter.png" />
     <None Remove="Images\orszag_tortai.png" />
     <None Remove="Images\sutemenyek.png" />
-    <None Remove="Vhatter.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -126,13 +122,6 @@
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="SQL\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="hater.png" />
-    <Resource Include="haterV.png" />
-    <Resource Include="hatterV.png" />
-    <Resource Include="Vhatter.png" />
   </ItemGroup>
 
 </Project>
