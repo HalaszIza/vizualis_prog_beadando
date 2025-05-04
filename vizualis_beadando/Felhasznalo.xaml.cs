@@ -11,7 +11,11 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.EntityFrameworkCore;
 using static Model.Felhasznalo;
+using vizualis_beadando.Data;
+using Model;
+using System.Windows.Controls.Primitives;
 
 namespace vizualis_beadando
 {
@@ -20,10 +24,12 @@ namespace vizualis_beadando
     /// </summary>
     public partial class Felhasznalo : Window
     {
+        private Felhasznalo bejelentkezettFelhasznalo;
         //Felhasznalo proba = new Felhasznalo();
         public Felhasznalo()
         {
             InitializeComponent();
+            statusBar.Visibility = Visibility.Collapsed;
         }
 
         private void bt_Bej(object sender, RoutedEventArgs e)
@@ -78,6 +84,7 @@ namespace vizualis_beadando
 
                     context.Felhasznalok.Add(newFelhasznalo);
                     context.SaveChanges();
+                    MessageBox.Show("Sikeres regisztráció!");
 
                     MessageBox.Show("Sikeres regisztráció! elkezdheti a barangolást csodást receptjeink között.");
                 }

@@ -9,10 +9,71 @@
     <DockPanel>
 
         <Menu DockPanel.Dock="Top" Background="#FFFFEBA2">
-            <MenuItem Header="Főoldal" Width="100" Height="30" Click="mi_Főoldal_Click" Background="White" Padding="30,0,20,0" FontSize="15"/>
+            <MenuItem Header="Főoldal" Width="242" Height="40" Click="mi_Főoldal_Click" Background="#FFFBC2C2" Padding="50,0,0,0" FontSize="30"/>
         </Menu>
 
-        <Grid Background="#FFFFEBA2">
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFFedA2"/>
+                    <GradientStop Color="#FFE9B457" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock></TextBlock>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Sorszám</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Neve</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">Képe</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">Ára</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">1</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Mákvirág</TextBlock>
+            <Canvas>
+                <Image Source="/Images/makvirag.png" Height="116" Width="132" Canvas.Left="444" Canvas.Top="78"/>
+            </Canvas>
+            <TextBlock Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">19.800</TextBlock>
+
+            <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">2</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Tejcsokoládés-kardamom körte</TextBlock>
+            <Canvas>
+                <Image Source="/Images/tejcsokolade-kardamon-korte.png" Height="87" Canvas.Left="454" Width="120" Canvas.Top="192" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            </Canvas>
+            <TextBlock Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">16.500</TextBlock>
+
+            <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">3</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Égetett habos</TextBlock>
+            <Canvas>
+                <Image Source="/Images/egetett_habos.jpg" Height="100" Canvas.Left="446" Width="140" Canvas.Top="285"/>
+            </Canvas>
+            <TextBlock Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">15.600</TextBlock>
+
+            <TextBlock Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">4</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Málnás fehércsokis</TextBlock>
+            <Canvas>
+                <Image Source="/Images/malnas_fehercsokis.jpg" Height="82" Canvas.Left="458" Width="124" Canvas.Top="390" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            </Canvas>
+            <TextBlock Grid.Row="4" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">5.900</TextBlock>
+
+            <TextBlock Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">5</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">Nour Signature</TextBlock>
+            <Canvas>
+                <Image Source="/Images/nour_signature.jpg" Height="61" Width="68" Canvas.Left="482" Canvas.Top="477" HorizontalAlignment="Center" VerticalAlignment="Top" />
+            </Canvas>
+            <TextBlock Grid.Row="5" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center">60.000</TextBlock>
 
         </Grid>
     </DockPanel>

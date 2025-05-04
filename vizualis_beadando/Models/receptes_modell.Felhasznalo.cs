@@ -8,8 +8,8 @@
 // the code is regenerated.
 //------------------------------------------------------------------------------
 
-using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic.ApplicationServices;
+using Microsoft;
+//using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,16 +17,14 @@ using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Data.Common;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using vizualis_beadando.Data;
+using vizualis_beadando;
 
 namespace Model
 {
     public partial class Felhasznalo {
-
-        public Felhasznalo()
-        {
-            OnCreated();
-        }
 
         [Key]
         public long f_id { get; set; }
@@ -52,24 +50,7 @@ namespace Model
         public virtual Tortak Tortak { get; set; }
 
         public virtual Foetelek Foetelek { get; set; }
-        partial void OnCreated();
-        public class AppDbContext : DbContext
-        {
-            public DbSet<Felhasznalo> Felhasznalok { get; set; }
-
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            {
-                optionsBuilder.UseSqlServer(
-                    @"Server=(localdb)\mssqllocaldb;Database=UserAuthDB;Trusted_Connection=True;");
-            }
-
-            protected override void OnModelCreating(ModelBuilder modelBuilder)
-            {
-                modelBuilder.Entity<Felhasznalo>()
-                    .HasIndex(u => u.felhasznalo_n)
-                    .IsUnique();
-            }
-        }
+      
   
     }
 
