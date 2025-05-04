@@ -15,24 +15,15 @@
                 <Grid x:Name="MainGrid" Background="#FFFFEBA2">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="100"/>
-
-                        <!-- Row 1 -->
                         <RowDefinition Height="*"/>
-                        <!-- Row 2 -->
                         <RowDefinition Height="*"/>
-                        <!-- Row 3 -->
                     </Grid.RowDefinitions>
 
-                    <!-- Column definitions -->
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
-                        <!-- Column 0 -->
                         <ColumnDefinition Width="*"/>
-                        <!-- Column 1 -->
                         <ColumnDefinition Width="*"/>
-                        <!-- Column 2 -->
                         <ColumnDefinition Width="*"/>
-                        <!-- Column 3 -->
 
                     </Grid.ColumnDefinitions>
 
