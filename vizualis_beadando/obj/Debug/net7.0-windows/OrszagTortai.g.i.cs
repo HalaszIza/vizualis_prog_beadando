@@ -53,7 +53,7 @@ namespace vizualis_beadando {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/vizualis_beadando;component/orszagtortai.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/vizualis_beadando;V1.0.0.0;component/orszagtortai.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\OrszagTortai.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
