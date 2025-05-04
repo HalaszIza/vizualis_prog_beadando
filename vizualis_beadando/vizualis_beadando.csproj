@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="hatterV.png" />
     <None Remove="Images\belepes.png" />
     <None Remove="Images\Etelek\kep_02.png" />
     <None Remove="Images\Etelek\kep_03.png" />
@@ -122,6 +123,10 @@
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="SQL\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="hatterV.png" />
   </ItemGroup>
 
 </Project>

@@ -16,7 +16,10 @@
         </Menu>
 
 
-        <Grid Background="#FFFFEBA2">
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="/hatterV.png"/>
+            </Grid.Background>
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="100"/>
@@ -35,18 +38,18 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBlock VerticalAlignment="Center" Grid.Column="1">BEJELENTKEZÉS</TextBlock>
-            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="0" Grid.Row="1">felhasználónév</TextBlock>
+            <TextBlock VerticalAlignment="Center" Grid.Column="1" FontSize="20">BEJELENTKEZÉS</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="0" Grid.Row="1" FontSize="15">felhasználónév</TextBlock>
             <TextBox x:Name="txtUsername"  Grid.Column="1" Margin="6,23,10,0" VerticalAlignment="Top" Grid.Row="1"/>
             <Button Grid.Column="1" Grid.Row="3" Margin="125,0,10,26" Background="#FFFBC2C2" BorderBrush="#FFFBC2C2" Click="bt_Bej">bejelentkezés</Button>
 
-            <TextBlock VerticalAlignment="Center" Grid.Column="3" Grid.Row="0">FIÓK LÉTREHOZÁSA</TextBlock>
-            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2" Grid.Row="1">felhasználónév</TextBlock>
+            <TextBlock VerticalAlignment="Center" Grid.Column="3" Grid.Row="0" FontSize="20">FIÓK LÉTREHOZÁSA</TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="2" Grid.Row="1" FontSize="15">felhasználónév</TextBlock>
             <TextBox x:Name="txtRegUsername" Grid.Column="3" Margin="6,23,10,0" VerticalAlignment="Top" Grid.Row="1"/>
             <Button Grid.Column="3" Grid.Row="3" Margin="125,0,10,26" Background="#FFFBC2C2" BorderBrush="#FFFBC2C2" Click="bt_Reg">regisztráció</Button>
 
 
-            <StatusBar x:Name="statusBar" VerticalAlignment="Bottom" Background="LightGray">
+            <StatusBar x:Name="statusBar" VerticalAlignment="Bottom" Grid.Column="1" Grid.Row="4">
                 <StatusBarItem>
                     <TextBlock x:Name="txtStatus" />
                 </StatusBarItem>

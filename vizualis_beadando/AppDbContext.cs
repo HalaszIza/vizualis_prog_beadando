@@ -13,22 +13,13 @@ namespace vizualis_beadando.Data
 {
     public class AppDbContext : System.Data.Entity.DbContext, IDisposable
     {
-        public DbSet<Felhasznalo> Felhasznalok { get; set; }
+        public System.Data.Entity.DbSet<Model.Felhasznalo> Felhasznalok { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public void SaveChanges()
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=VizualisBeadandoDB;Trusted_Connection=True;");
-        }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Felhasznalo>(entity =>
-            {
-                entity.ToTable("Felhasznalok"); // Explicit táblanév
-                entity.HasKey(e => e.f_id); // Elsődleges kulcs
-                entity.Property(e => e.felhasznalo_n).IsRequired();
-
-            });
+            // Ide jön a mentés logikája (pl. SQL kézzel írt parancsok)
+            Console.WriteLine("Adat mentése...");
         }
     }
+    
 }
