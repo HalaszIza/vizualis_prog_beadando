@@ -13,6 +13,7 @@ using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Data.Common;
 using System.Linq;
@@ -27,6 +28,7 @@ namespace Model
             OnCreated();
         }
 
+        [Key]
         public long f_id { get; set; }
 
         public string felhasznalo_n { get; set; }
@@ -50,27 +52,24 @@ namespace Model
         public virtual Tortak Tortak { get; set; }
 
         public virtual Foetelek Foetelek { get; set; }
-        //public class AppDbContext : DbContext
-        //{
-          //  public DbSet<User> Users { get; set; }
-
-            //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            //{
-              //  optionsBuilder.UseSqlServer(
-                //    @"Server=(localdb)\mssqllocaldb;Database=UserAuthDB;Trusted_Connection=True;");
-            //}
-
-            //protected override void OnModelCreating(ModelBuilder modelBuilder)
-            //{
-              //  modelBuilder.Entity<User>()
-                ////    .HasIndex(u => u.felhasznalo)
-                    //.IsUnique();
-            //}
-        //}
-
-
         partial void OnCreated();
+        public class AppDbContext : DbContext
+        {
+            public DbSet<Felhasznalo> Felhasznalok { get; set; }
 
+            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            {
+                optionsBuilder.UseSqlServer(
+                    @"Server=(localdb)\mssqllocaldb;Database=UserAuthDB;Trusted_Connection=True;");
+            }
+
+            protected override void OnModelCreating(ModelBuilder modelBuilder)
+            {
+                modelBuilder.Entity<Felhasznalo>()
+                    .HasIndex(u => u.felhasznalo_n)
+                    .IsUnique();
+            }
+        }
   
     }
 

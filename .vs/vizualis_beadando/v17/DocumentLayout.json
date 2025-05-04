@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadandoFINAL\\",
+  "WorkspaceRootPath": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadandofinal\\vizualis_beadando\\felhasznalo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\felhasznalo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\felhasznalo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\felhasznalo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\felhasznalo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadandofinal\\vizualis_beadando\\sutemenyek.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\models\\receptes_modell.felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\models\\receptes_modell.felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\sutemenyek.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\sutemenyek.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadandofinal\\vizualis_beadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadandofinal\\vizualis_beadando\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,36 +41,37 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sutemenyek.xaml",
-              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\Sutemenyek.xaml",
-              "RelativeDocumentMoniker": "vizualis_beadando\\Sutemenyek.xaml",
-              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\Sutemenyek.xaml",
-              "RelativeToolTip": "vizualis_beadando\\Sutemenyek.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-03T08:20:36.29Z",
+              "DocumentIndex": 0,
+              "Title": "Felhasznalo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Felhasznalo.xaml.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml.cs",
+              "RelativeToolTip": "vizualis_beadando\\Felhasznalo.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:58:18.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "vizualis_beadando\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\MainWindow.xaml",
-              "RelativeToolTip": "vizualis_beadando\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-03T08:20:24.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\sipos\\Source\\Repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\App.xaml",
               "RelativeDocumentMoniker": "vizualis_beadando\\App.xaml",
-              "ToolTip": "C:\\Users\\sipos\\Source\\Repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\App.xaml",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\App.xaml",
               "RelativeToolTip": "vizualis_beadando\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-03T08:18:33.745Z",
@@ -66,14 +79,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Felhasznalo.xaml",
-              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\Felhasznalo.xaml",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml",
               "RelativeDocumentMoniker": "vizualis_beadando\\Felhasznalo.xaml",
-              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadandoFINAL\\vizualis_beadando\\Felhasznalo.xaml*",
-              "RelativeToolTip": "vizualis_beadando\\Felhasznalo.xaml*",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml",
+              "RelativeToolTip": "vizualis_beadando\\Felhasznalo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-03T08:14:27.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "receptes_modell.Felhasznalo.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "RelativeToolTip": "vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:58:51.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\App.xaml.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\App.xaml.cs",
+              "RelativeToolTip": "vizualis_beadando\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:58:41.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sutemenyek.xaml",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Sutemenyek.xaml",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Sutemenyek.xaml",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Sutemenyek.xaml",
+              "RelativeToolTip": "vizualis_beadando\\Sutemenyek.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T08:20:36.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "vizualis_beadando\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\MainWindow.xaml",
+              "RelativeToolTip": "vizualis_beadando\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T08:20:24.569Z",
               "EditorCaption": ""
             }
           ]
