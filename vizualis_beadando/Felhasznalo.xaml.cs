@@ -16,6 +16,8 @@ using static Model.Felhasznalo;
 using vizualis_beadando.Data;
 using Model;
 using System.Windows.Controls.Primitives;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace vizualis_beadando
 {
@@ -25,7 +27,28 @@ namespace vizualis_beadando
     public partial class Felhasznalo : Window
     {
         private Felhasznalo bejelentkezettFelhasznalo;
-        //Felhasznalo proba = new Felhasznalo();
+
+        //NEW
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public long f_id { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string felhasznalo_n { get; set; }
+
+        // Külső kulcsok nullable-vé tétele
+        public long? Foetelekf_id { get; set; }
+        public long? s_id { get; set; }
+        public long? t_id { get; set; }
+
+        // Navigációs tulajdonságok
+        public virtual Foetelek Foetelek { get; set; }
+        public virtual Sutemenyek Sutemenyek { get; set; }
+        public virtual Tortak Tortak { get; set; }
+
+        //NEW END
+
         public Felhasznalo()
         {
             InitializeComponent();
@@ -80,6 +103,9 @@ namespace vizualis_beadando
                     var newFelhasznalo = new Model.Felhasznalo
                     {
                         felhasznalo_n = username,
+                        f_kedvenc_id = 0,
+                        s_kedvenc_id = 0,
+                        t_kedvenc_id = 0
                     };
 
                     context.Felhasznalok.Add(newFelhasznalo);

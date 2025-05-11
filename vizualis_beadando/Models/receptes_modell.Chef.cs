@@ -11,6 +11,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Data.Common;
 using System.Linq;
@@ -28,6 +29,7 @@ namespace Model
             OnCreated();
         }
 
+        [Key]
         public long c_id { get; set; }
 
         public string c_nev { get; set; }

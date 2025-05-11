@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\orszagtortai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\orszagtortai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\orszagtortai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\orszagtortai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,36 @@
       "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\felhasznalo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\felhasznalo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\felhasznalo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\models\\receptes_modell.tortak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\models\\receptes_modell.tortak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\models\\receptes_modell.chef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\models\\receptes_modell.chef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\models\\receptes_modell.foetelek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\models\\receptes_modell.foetelek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\models\\receptes_modell.sutemenyek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\models\\receptes_modell.sutemenyek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\models\\receptes_modell.felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\models\\receptes_modell.felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\orszagtortai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\orszagtortai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\felhasznalo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\felhasznalo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\orszagtortai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|solutionrelative:vizualis_beadando\\orszagtortai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1DD2A92-210E-4CB7-8A4E-55AFDD85C0C3}|vizualis_beadando\\vizualis_beadando.csproj|c:\\users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,25 +66,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrszagTortai.xaml",
-              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\OrszagTortai.xaml",
-              "RelativeDocumentMoniker": "vizualis_beadando\\OrszagTortai.xaml",
-              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\OrszagTortai.xaml",
-              "RelativeToolTip": "vizualis_beadando\\OrszagTortai.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-04T18:57:33.686Z",
+              "DocumentIndex": 3,
+              "Title": "receptes_modell.Chef.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Chef.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Models\\receptes_modell.Chef.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Chef.cs",
+              "RelativeToolTip": "vizualis_beadando\\Models\\receptes_modell.Chef.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:06:48.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\AppDbContext.cs",
               "RelativeDocumentMoniker": "vizualis_beadando\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\AppDbContext.cs",
               "RelativeToolTip": "vizualis_beadando\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T18:10:22.905Z",
               "EditorCaption": ""
@@ -76,6 +93,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "receptes_modell.Foetelek.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Foetelek.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Models\\receptes_modell.Foetelek.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Foetelek.cs",
+              "RelativeToolTip": "vizualis_beadando\\Models\\receptes_modell.Foetelek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:05:28.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Felhasznalo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Felhasznalo.xaml.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml.cs",
+              "RelativeToolTip": "vizualis_beadando\\Felhasznalo.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:58:18.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "receptes_modell.Tortak.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Tortak.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Models\\receptes_modell.Tortak.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Tortak.cs",
+              "RelativeToolTip": "vizualis_beadando\\Models\\receptes_modell.Tortak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:07:07.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "receptes_modell.Sutemenyek.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Sutemenyek.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Models\\receptes_modell.Sutemenyek.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Sutemenyek.cs",
+              "RelativeToolTip": "vizualis_beadando\\Models\\receptes_modell.Sutemenyek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:07:21.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Felhasznalo.xaml",
               "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml",
               "RelativeDocumentMoniker": "vizualis_beadando\\Felhasznalo.xaml",
@@ -87,7 +156,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "receptes_modell.Felhasznalo.cs",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "RelativeDocumentMoniker": "vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "RelativeToolTip": "vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:58:51.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrszagTortai.xaml",
+              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\OrszagTortai.xaml",
+              "RelativeDocumentMoniker": "vizualis_beadando\\OrszagTortai.xaml",
+              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\OrszagTortai.xaml",
+              "RelativeToolTip": "vizualis_beadando\\OrszagTortai.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T18:57:33.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "OrszagTortai.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\OrszagTortai.xaml.cs",
               "RelativeDocumentMoniker": "vizualis_beadando\\OrszagTortai.xaml.cs",
@@ -100,33 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "receptes_modell.Felhasznalo.cs",
-              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
-              "RelativeDocumentMoniker": "vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
-              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
-              "RelativeToolTip": "vizualis_beadando\\Models\\receptes_modell.Felhasznalo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:58:51.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Felhasznalo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml.cs",
-              "RelativeDocumentMoniker": "vizualis_beadando\\Felhasznalo.xaml.cs",
-              "ToolTip": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\Felhasznalo.xaml.cs",
-              "RelativeToolTip": "vizualis_beadando\\Felhasznalo.xaml.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwC0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:58:18.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sipos\\source\\repos\\vizualis_prog_beadando3579672\\vizualis_beadando\\App.xaml.cs",
               "RelativeDocumentMoniker": "vizualis_beadando\\App.xaml.cs",
